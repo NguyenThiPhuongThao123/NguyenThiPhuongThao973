@@ -14,10 +14,13 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.NTPTName)
+                Mã ID
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.NTPTGender)
+                Tên người dùng
+            </th>
+            <th>
+                Gender
             </th>
             <th></th>
         </tr>
@@ -25,6 +28,9 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NTPTId)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.NTPTName)
             </td>
