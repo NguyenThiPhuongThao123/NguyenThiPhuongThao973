@@ -13,6 +13,7 @@ namespace NguyenThiPhuongThao973.Models
         public int PersonId { get; set; }
         [Column(TypeName = "varchar(20)")]
         public string PersonName { get; set; }
+
     }
 }
 

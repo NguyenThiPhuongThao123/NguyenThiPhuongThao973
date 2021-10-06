@@ -15,6 +15,6 @@ namespace NguyenThiPhuongThao973.Models
         public string NTPTName { get; set; }
         [Column(TypeName = "varchar(50)")]
         public string NTPTGender { get; set; }
-
+        public string StringProcessNTPT973 { get; set; }
     }
 }
